@@ -1,4 +1,4 @@
-Software licence
+Software licence for bacterialbomb software
 
 Copyright 2021 Simon Poole
 
