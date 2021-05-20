@@ -1,6 +1,6 @@
 ## bacterialbomb
 
-This is a coding project to map the particle fallout from an imaginary baterial bomb exploded in an urban area. 
+This is a coding project to map the particle fallout from an imaginary bacterial bomb exploded in an urban area. 
 It includes two associated python files and a jupyter notebook. The jupyter notebook explains the development of the code and shows some of the ouputs.
 
 ### Example output
