@@ -19,13 +19,13 @@ The project has the following steps
 
 ## Installation and usage
 
-The package is made up of two python file. The main file is called bacterialbomb.py and there is an associated file called particlemove.py.
+The package is made up of two python files. The main file is called bacterialbomb.py and there is an associated file called particlemove.py.
 
-The model can be run at the command line. You will need to be connected to the web (for scraping the data). There is a GUI with instructions.
+The model runs best at the command line. You will need to be connected to the web (for scraping the data). There is a GUI with instructions.
 
 There are three options in the GUI. You can choose the number of particles. You can select the windspeed and you can select the surface that the particles land on (either a flat plain or a contoured surface). There is a Help drop down list concerning these three options.
 
-The model doesnt run well in Spyder due to the GUI and the plots. If you wish to try this the Tools/Prefences/Ipython console/Graphics needs to be set to TKinter. 
+The model doesn't run well in Spyder due to the GUI and the plots. If you wish to try this the Tools/Prefences/Ipython console/Graphics needs to be set to TKinter. 
 
 ## Jupyter Notebook
 
@@ -34,8 +34,8 @@ There is an associated Jupyter Notebook which explains how the code was develope
 ## Inputs and Outputs
 
 The user defined inputs are number of particles, windspeed and surface. These are selected in the GUI.
-The code scrapes a file containing the bombsite from the web. 
-The code also takes in an associated file called environment.txt which contains the digital elevation model.
+The code scrapes a file called wind raster containing the bombsite from the web. 
+The code also takes in an associated file called in.txt which contains the digital elevation model. There is a copy of this file in the repo.
 
 The outputs are a density map showing where the particles land and this data is saved into a text file called citydata.txt.
 
